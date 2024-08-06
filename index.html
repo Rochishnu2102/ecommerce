@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Swiper CSS Link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!--External stylesheet link-->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!--Font Awesome CDN Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>E-store</title>
+</head>
+<body>
+    <!--Header section starts-->
+    <header class="header-sec">
+        <i class="fa-solid fa-bars hamburger"></i>
+        <div class="container">
+            <nav class="nav-sec">
+                <div>
+                    <img src="./Images/Logo.jpg" alt="Site_logo" width="230px" height="120px">
+                    <ul class="nav-items">
+                        <li class="nav-item"><a href="./index.html" class="nav-link">HOME</a></li>
+                        <div class="dropdown-1">
+                            <li class="nav-item-dropdown">PRODUCT CATEGORIES <i class="fa-solid fa-angle-down arrow-down"></i></li>
+                           <div class="dropdown-content">
+                            <a href="./mobiles-laptops-computer.html">Mobiles, laptops & Computers</a>
+                           </div>
+                        </div>   
+                        <li class="nav-item"><a href="./about-us.html" class="nav-link">ABOUT US</a></li>
+                        <li class="nav-item"><a href="./blog.html" class="nav-link">BLOG</a></li>
+                        <div class="dropdown-2">
+                           <li class="nav-item-dropdown-reg"><a href="#" class="registration">Sign-Up/Log in</a></li>
+                           <div class="sign-up-dropdown">
+                              <div><button class="log-in"><a href="./login.html">Login</a></button>
+                                <p>New customer?<a href="./sign-up.html"><u>Sign-Up here</u></a></p>
+                              </div>
+                               
+                           </div>
+                        </div>
+                    </ul>
+                    
+                </div>
+            </nav>
+        </div>    
+    </header>
+    <!--Header section ends-->
+
+    <!--Section-1 starts-->
+    <section class="section-1">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./Images/Carousel-1.webp" alt="" class="carousel-1"></div>
+              <div class="swiper-slide"><img src="./Images/Carousel-2.jpg" alt="" class="carousel-2"></div>
+              <div class="swiper-slide"><img src="./Images/Carousel-3.jpg" alt="" class="carousel-3"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        
+          <div class="sec-1-description">
+            <h2>Online E-commerce Store</h2>
+            <div class="key-features">
+              <ul type="disc" class="features-list">
+                <li class="key-feature">Vast range of products.</li>
+                <li class="key-feature">Convenient purchasing options.</li>
+                <li class="key-feature">Quick delivery at your doorstep.</li>
+                <li class="key-feature">100% money-back guarantee.</li>
+              </ul>
+            </div>
+            <button class="shop-now">Shop Now</button>
+          </div>
+        
+        
+          <!-- Swiper JS -->
+         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+              pagination: {
+                el: ".swiper-pagination",
+              },
+            });
+          </script>
+    </section>
+    <!--Section-1 ends-->
+
+    <!--Section-2 starts-->
+    <section class="section-2">
+      <div class="container">
+      <h4 class="heading1">FEATURED</h4>
+      <h2 class="heading2">PRODUCTS</h2>
+      <div class="featured-products">
+        <div class="product-content">
+        <div class="product">
+           <img src="./Images/Samsung galaxy s24.jpg" alt="Smartphone image" class="product-image">
+           <h4 class="product-name">SAMSUNG GALAXY S24</h4>
+           <h4 class="product-price">Rs. 40,999.00</h4>
+           <button class="wishlist">Add to Wishlist</button>
+        </div>
+
+        <div class="product">
+          <img src="./Images/sonata smartwatch.webp" alt="Smartwatch image" class="product-image">
+           <h4 class="product-name">SONATA GOLD A1</h4>
+           <h4 class="product-price">Rs. 3,499.00</h4>
+           <button class="wishlist">Add to Wishlist</button>
+        </div>
+
+        <div class="product">
+          <img src="./Images/men's full sleeve shirt.jpg" alt="Men's dress image" class="product-image">
+          <h4 class="product-name">VALBONE FULL SLEEVE SHIRT</h4>
+          <h4 class="product-price">Rs. 899.00</h4>
+          <button class="wishlist">Add to Wishlist</button>
+        </div>
+
+        <div class="product">
+          <img src="./Images/ladies-kurti-and-palazzo.jpeg" alt="Women's dress image" class="product-image">
+           <h4 class="product-name">LADIES KURTI WITH PALAZZO</h4>
+           <h4 class="product-price">Rs. 1,299.00</h4>
+           <button class="wishlist">Add to Wishlist</button>
+        </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!--Section-2 ends-->
+
+    <!--Section-3 starts-->
+   <section class="section-3">
+    <div class="container">
+      <div class="content-sec-3">
+      <div class="left-sec">
+        <img src="./Images/cart-image.jpg" alt="Shopping cart image" class="cart">
+      </div>
+
+      <div class="right-sec">
+        <h4>WELCOME TO</h4>
+        <h2>E-STORE</h2>
+        <p>An online E-commerce site consisting of various range of products and services, for the convenient shopping of every customers from the comfort of their home.</p>
+        <div class="features">
+          <div class="feature">
+            <div>
+             <img src="./Images/satisfied clients.png" alt="Satisfied Clients" class="image-box1">
+             <h3>Satisfied clients</h3>
+             </div>
+          </div>
+
+          <div class="feature">
+            <div>
+            <img src="./Images/free returns.png" alt="Free Returns" class="image-box2">
+             <h3>Free returns</h3>
+             </div>
+          </div>
+
+          <div class="feature">
+            <div>
+            <img src="./Images/customer support.png" alt="Customer Support" class="image-box3">
+             <h3>24x7 Customer Support</h3>
+             </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <!--Section-3 ends-->
+
+    <!--Section-4 starts-->
+   <section class="section-4">
+      <div class="container">
+        <div class="sec-4-features">
+          <div class="sec-4-feature">
+            <img src="./Images/fast delivery.png" alt="" class="sec-4-image">
+            <div class="feature-title">
+              <h3 class="line-1">FAST</h3>
+              <h3 class="line-2">DELIVERY</h3>
+            </div>
+          </div>
+
+          <div class="sec-4-feature">
+            <img src="./Images/special discount.png" alt="" class="sec-4-image">
+            <div class="feature-title">
+              <h3 class="line-1">SPECIAL</h3>
+              <h3 class="line-2">DISCOUNT</h3>
+            </div>
+          </div>
+
+          <div class="sec-4-feature">
+            <img src="./Images/secure checkout.png" alt="" class="sec-4-image">
+            <div class="feature-title">
+              <h3 class="line-1">SECURE</h3>
+              <h3 class="line-2">CHECKOUT</h3>
+            </div>
+          </div>
+          
+          <div class="sec-4-feature">
+            <img src="./Images/30 day return.png" alt="" class="sec-4-image">
+            <div class="feature-title">
+              <h3 class="line-1">30 DAY</h3>
+              <h3 class="line-2">RETURN</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="discount-menu">
+          <h1>GET DISCOUNT 30% OFF</h1>
+          <input type="email" placeholder="ENTER YOUR EMAIL">
+          <button class="subscribe">SUBSCRIBE</button>
+        </div>
+      </div>
+    </section>
+    <!--Section-4 ends-->
+
+    <!--Section-5 starts-->
+    <section class="section-5">
+      <div class="container">
+      <h4 class="sec-5-heading1">WHAT OUR CUSTOMER SAYS</h4>
+      <h2 class="sec-5-heading2">TESTIMONIALS</h2>
+      <div class="customer-reviews">
+        <div class="review">
+          <div class="review-content">
+            <h3 class="review-heading">Happy Customer</h3>
+            <p class="review-statement">Very useful and quality products, with free and quick delivery at my doorstep.</p>
+            <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></p>
+            <img src="./Images/Laura Fenty.jpg" alt="Customer-1" class="customer-image">
+            <h3 class="customer-name">Laura Fenty</h3>
+          </div>
+        </div>  
+        
+        <div class="review">
+          <div class="review-content">
+            <h3 class="review-heading">Good Quality Products</h3>
+            <p class="review-statement">Very high-quality and long lastin products.</p>
+            <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i></i></p>
+            <img src="./Images/Robin Danes.jpg" alt="Customer-2" class="customer-image">
+            <h3 class="customer-name">Robin Danes</h3>
+          </div>
+        </div>
+
+        <div class="review">
+          <div class="review-content">
+            <h3 class="review-heading">Value for Money</h3>
+            <p class="review-statement">Good quality products available at a very cheap price in just the click of a button.</p>
+            <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></p>
+            <img src="./Images/Laura Jack.jpg" alt="Customer-3" class="customer-image">
+            <h3 class="customer-name">Laura Jack</h3>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!--Section-5 ends-->
+
+    <!--Footer starts-->
+    <footer class="footer-sec">
+      <div class="container">
+       <div class="footer-div-1">
+          <div class="contact-info">
+              <img src="./Images/footer-contact-icon.png" alt="Contact Info Icon" class="contact-icon">
+              <div class="contact">
+               <h2>123 456 7890</h2>
+               <h4>info@sitename.com</h4>
+              </div>
+          </div>
+ 
+          <div class="logo">
+           <img src="./Images/Logo.jpg" alt="Site_logo" width="330px" height="120px">
+          </div>
+ 
+          <div class="social-media-info">
+            <ul class="social-media-items">
+             <li class="social-media-item"><a href="facebook.com" class="social-media-link"><i class="fa-brands fa-facebook-f social-icon"></i></a></li>
+             <li class="social-media-item"><a href="instagram.com" class="social-media-link"><i class="fa-brands fa-instagram social-icon"></i></a></li>
+             <li class="social-media-item"><a href="youtube.com" class="social-media-link"><i class="fa-brands fa-youtube social-icon"></i></a></li>
+             <li class="social-media-item"><a href="linkedin.com" class="social-media-link"><i class="fa-brands fa-linkedin-in social-icon"></i></a></li>
+            </ul>
+          </div>
+       </div>
+ 
+       <div class="footer-div-2">
+        <div class="about">
+         <h3>About</h3>
+         <p>Suspendisse interdumnnec effiitur auctor, odio lcongue ligulaodales tortor turpis at elit. Aliquam iacipsum uttu odio variusid interdu lacae dictum. Mauris a maximus dolovestibulum.</p>
+        </div>
+ 
+        <div class="informations">
+         <h3>Information</h3>
+         <ul class="info-items">
+           <li class="info-item"><a href="./about-us.html"><i class="fa-solid fa-angle-right"></i>  About Us</a></li>
+           <li class="info-item"><a href="./privacy-policy.html"><i class="fa-solid fa-angle-right"></i>  Privacy Policy</a></li>
+           <li class="info-item"><a href="./delivery-information.html"><i class="fa-solid fa-angle-right"></i>  Delivery Information</a></li>
+           <li class="info-item"><a href="./terms-conditions.html"><i class="fa-solid fa-angle-right"></i>  Terms & Conditions</a></li>
+         </ul>
+        </div>
+ 
+        <div class="customer-services">
+         <h3>Customer Services</h3>
+         <ul class="customer-services-items">
+           <li class="customer-services-item"><a href="./shipping-policy.html"><i class="fa-solid fa-angle-right"></i>  Shipping Policy</a></li>
+           <li class="customer-services-item"><a href="./return-policy.html"><i class="fa-solid fa-angle-right"></i>  Return Policy</a></li>
+           <li class="customer-services-item"><a href="./refund-compensation.html"><i class="fa-solid fa-angle-right"></i>  Refund Compensation</a></li>
+           <li class="customer-services-item"><a href="./guarantee.html"><i class="fa-solid fa-angle-right"></i>  Guarantee</a></li>
+         </ul>
+        </div>
+       </div>
+       <p class="copyright-info">© Copyright E-store. All Rights Reserved.</p>
+      </div>
+     </footer>
+     <!--Footer ends-->
+    
+        <!--Jquery CDN Link-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+        <script src="./Jquery/script.js"></script>
+</body>
+</html>
